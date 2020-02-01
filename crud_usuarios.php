@@ -31,7 +31,7 @@
 			<br>
 			<h2>Descrição</h2>
 			<br>
-			<p style="margin: 0; padding: 0;">Descrição maior do projeto</p><br><br>
+			<p style="margin: 0; padding: 0;">Neste projeto utilizei PHP orientado a objetos para<br>fazer as funções de adicionar, ver, editar e excluir, assim como segue propriamente dito um "CRUD".<br><br>O CRUD a seguir é um controle de usuários,<br>com as funções de um CRUD e todo o sistema bem funcional.<br><br><strong>Conhecimentos usados:</strong> PHP, SQL, HTML e CSS.<br><br></p>
 		</div>
 	</div>
 
@@ -40,8 +40,8 @@
 			<br>
 			<h2>Veja</h2>
 			<br>
-			<video width="500" height="400" style="background-color: red;">
-				<source src="" type="">
+			<video controls preload muted width="500" height="400" style="background-color: red;">
+				<source src="crud.mp4" type="video/mp4">
 			</video><br><br>
 		</div>
 	</div>

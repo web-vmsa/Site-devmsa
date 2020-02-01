@@ -20,7 +20,7 @@
 	<div class="projeto">
 		<div class="projetoint">
 			<br>
-			<h2>Calculadora em PHP</h2>
+			<h2>Calculadora PHP</h2>
 			<br>
 			<img src="calculadora.png" border="0" width="300" height="300"><br><br>
 		</div>
@@ -31,7 +31,7 @@
 			<br>
 			<h2>Descrição</h2>
 			<br>
-			<p style="margin: 0; padding: 0;">Descrição maior do projeto</p><br><br>
+			<p style="margin: 0; padding: 0;">Abaixo o código e um video da "calculadora"<br>feita com PHP e HTML, nela você pode, somar, subtrair, dividir,<br>multiplicar e calcular porcentagem.<br><br><strong>Conhecimentos usados:</strong> PHP e HTML.</p><br><br>
 		</div>
 	</div>
 
@@ -40,8 +40,8 @@
 			<br>
 			<h2>Veja</h2>
 			<br>
-			<video width="500" height="400" style="background-color: red;">
-				<source src="" type="">
+			<video controls preload muted width="500" height="400" style="background-color: red;">
+				<source src="calculadora.mp4" type="video/mp4">
 			</video><br><br>
 		</div>
 	</div>

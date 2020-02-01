@@ -34,11 +34,11 @@
 				<h2>Victor Miguel, programador!</h2>
 				<p>Trabalhando e atuando diretamente na<br>
 				construção de sistemas e projetos livres<br>
-				utilizando essencialmente PHP e HTML, mas<br>
+				utilizando essencialmente PHP, SQL e HTML, mas<br>
 				conhecedor de CSS e Javascript.<br><br>Tendo feito o curso<br>PHP - Do Zero Ao Profissional<br>
-				da b7Web que é amplamente reconhecido como<br>
+				da B7Web que é amplamente reconhecido como<br>
 				uma das maiores escolas de programadores de<br>
-				todo o país, e aplicando os conhecimentos nesse<br>site e em outros projetos.<br><br>Venho me apresentar ao mercado de TI<br>da melhor maneira possível, e estou a disposição<br> para projetos livres e para empresas.</p>
+				todo o país, e aplicando os conhecimentos nesse<br>site e em outros projetos.<br><br>Venho me apresentar ao mercado de TI<br>da melhor maneira possível, e estou a disposição<br> para projetos livres e empresas.</p>
 			</div>
 		</div>
 	</div>

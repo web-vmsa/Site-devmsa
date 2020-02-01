@@ -31,7 +31,7 @@
 			<br>
 			<h2>Descrição</h2>
 			<br>
-			<p style="margin: 0; padding: 0;">Descrição maior do projeto</p><br><br>
+			<p style="margin: 0; padding: 0;">Neste sistema de cadastro, agora podemos criar uma conta antes<br>de entrar na página de login, e ai sim entrarmos<br>na página secreta para usuários.<br><br><strong>Conhecimentos usados:</strong> PHP, SQL e HTML.</p><br><br>
 		</div>
 	</div>
 
@@ -40,8 +40,8 @@
 			<br>
 			<h2>Veja</h2>
 			<br>
-			<video width="500" height="400" style="background-color: red;">
-				<source src="" type="">
+			<video preload controls muted width="500" height="400" style="background-color: red;">
+				<source src="cadastro.mp4" type="video/mp4">
 			</video><br><br>
 		</div>
 	</div>

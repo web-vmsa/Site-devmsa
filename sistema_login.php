@@ -20,7 +20,7 @@
 	<div class="projeto">
 		<div class="projetoint">
 			<br>
-			<h2>Nome do projeto</h2>
+			<h2>Sistema de Login PHP</h2>
 			<br>
 			<img src="login.png" border="0" width="300" height="300"><br><br>
 		</div>
@@ -31,7 +31,8 @@
 			<br>
 			<h2>Descrição</h2>
 			<br>
-			<p style="margin: 0; padding: 0;">Descrição maior do projeto</p><br><br>
+			<p style="margin: 0; padding: 0;">Logo abaixo você pode ver um pequeno video mostrando o<br>sistema de login funcionado, peço perdão se a página secreta<br>não ficou muito bonita, nesse projeto foquei apenas<br>na parte do login em si, o que vem depois não<br>importa para o exemplo.<br><br>
+				<strong>Conhecimentos usados:</strong> PHP, SQL, HTML e CSS.</p><br><br>
 		</div>
 	</div>
 
@@ -40,8 +41,8 @@
 			<br>
 			<h2>Veja</h2>
 			<br>
-			<video width="500" height="400" style="background-color: red;">
-				<source src="" type="">
+			<video controls preload muted width="500" height="400" style="background-color: red;">
+				<source src="sistemalogin.mp4" type="video/mp4">
 			</video><br><br>
 		</div>
 	</div>
