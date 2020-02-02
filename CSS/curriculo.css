@@ -121,3 +121,24 @@ form input {
 	border-top: 1px solid #4169E1;
 	border-right: 1px solid #4169E1;
 }
+
+@media screen and (max-width: 1024px) {
+	.topoint {
+		max-width: 988px;
+	}
+	.logo {
+		width: 244px;
+	}
+	.menu {
+		width: 744px;
+	}
+	.curriculoint {
+		max-width: 988px;
+	}
+	.mail {
+		max-width: 988px;
+	}
+	.rodapeint {
+		max-width: 988px;
+	}
+}

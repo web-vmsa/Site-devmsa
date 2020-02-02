@@ -12,7 +12,7 @@
 	<div class="topo">
 		<div class="topoint">
 			<div class="logo">
-				<a href="index.php"><img src="../Imagens/vmsa.png" border="0" width="400" height="400" style="margin-left: 390px;"></a>
+				<a href="index.php"><img src="../Imagens/web_vmsazul.png" border="0" width="400" height="400" style="margin-left: 390px;"></a>
 			</div>
 		</div>
 	</div>

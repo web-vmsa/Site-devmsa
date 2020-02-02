@@ -229,3 +229,53 @@ body {
 	border-top: 1px solid #4169E1;
 	border-right: 1px solid #4169E1;
 }
+
+@media screen and (max-width: 1024px) {
+	.topoint {
+		max-width: 1024px;
+	}
+	.logo {
+		width: 145px;
+	}
+	.menu {
+		width: 800px;
+	}
+	.meioint {
+		max-width: 1024px;
+	}
+	.projeto {
+		margin-top: 0;
+		width: 546px;
+	}
+	.desc {
+		margin-top: 0;
+	}
+	.project {
+		margin-top: 0;
+	}
+	.redes {
+		width: 394px;
+	}
+	.coments {
+		width: 395px;
+	}
+	.ulticoment {
+		width: 395px;
+	}
+	.emailcoment {
+		width: 399px;
+	}
+	.nomecoment {
+		width: 389px;
+	}
+	.avaliacoment {
+		width: 395px;
+	}
+	.desccoment {
+		width: 420px;
+		margin-top: 5px;
+	}
+	.rodapeint {
+		max-width: 1024px;
+	}
+}
