@@ -4,14 +4,14 @@
 	<title>VMSA - Desenvolvimento Web</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="contato.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/contato.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="topo">
 		<div class="topoint">
 			<div class="logo">
-				<a href="index.php"><img src="novalogovmsa.png" border="0" style="margin-top: 15px; margin-left: 7px;"></a>
+				<a href="index.php"><img src="../Imagens/novalogovmsa.png" border="0" style="margin-top: 15px; margin-left: 7px;"></a>
 			</div>
 			<div class="menu">
 				<ul>

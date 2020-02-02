@@ -4,14 +4,14 @@
 	<title>VMSA - Desenvolvimento Web</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="projetos.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/projetos.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="topo">
 		<div class="topoint">
 			<div class="logo">
-				<a href="index.php"><img src="novalogovmsa.png" border="0" style="margin-top: 15px; margin-left: 7px;"></a>
+				<a href="index.php"><img src="../Imagens/novalogovmsa.png" border="0" style="margin-top: 15px; margin-left: 7px;"></a>
 			</div>
 			<div class="menu">
 				<ul>
@@ -28,7 +28,7 @@
 	<div class="pject">
 		<div class="pjectint" style="border-top: 1px solid #4169E1; border-right: 1px solid #4169E1;">
 			<div class="pojeto">
-				<img src="login.png" width="500" height="380" style="margin-left: 45px; margin-top: 10px;">
+				<img src="../Imagens/login.png" width="500" height="380" style="margin-left: 45px; margin-top: 10px;">
 			</div>
 			<div class="pojetotext">
 				<h2>Sistema de Login</h2>
@@ -42,7 +42,7 @@
 	<div class="pject">
 		<div class="pjectint" style="border-top: 1px solid #4169E1; border-left: 1px solid #4169E1;">
 			<div class="pojeto">
-				<img src="crud.png" width="500" height="380" style="margin-left: 45px; margin-top: 10px;">
+				<img src="../Imagens/crud.png" width="500" height="380" style="margin-left: 45px; margin-top: 10px;">
 			</div>
 			<div class="pojetotext">
 				<h2>CRUD de Controle de Usuários</h2>
@@ -56,7 +56,7 @@
 	<div class="pject">
 		<div class="pjectint" style="border-top: 1px solid #4169E1; border-right: 1px solid #4169E1;">
 			<div class="pojeto">
-				<img src="cadastro.png" width="500" height="380" style="margin-left: 45px; margin-top: 10px;">
+				<img src="../Imagens/cadastro.png" width="500" height="380" style="margin-left: 45px; margin-top: 10px;">
 			</div>
 			<div class="pojetotext">
 				<h2>Sistema de Cadastro</h2>
@@ -69,7 +69,7 @@
 	<div class="pject">
 		<div class="pjectint" style="border-top: 1px solid #4169E1; border-left: 1px solid #4169E1;">
 			<div class="pojeto">
-				<img src="calculadora.png" width="500" height="380" style="margin-left: 45px; margin-top: 10px;">
+				<img src="../Imagens/calculadora.png" width="500" height="380" style="margin-left: 45px; margin-top: 10px;">
 			</div>
 			<div class="pojetotext">
 				<h2>Calculadora com PHP</h2>

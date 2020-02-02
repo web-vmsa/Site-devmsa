@@ -4,14 +4,14 @@
 	<title>VMSA - Desenvolvimento Web</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="portfolio.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/portfolio.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="topo">
 		<div class="topoint">
 			<div class="logo">
-				<a href="index.php"><img src="novalogovmsa.png" border="0" style="margin-top: 15px; margin-left: 7px;"></a>
+				<a href="index.php"><img src="../Imagens/novalogovmsa.png" border="0" style="margin-top: 15px; margin-left: 7px;"></a>
 			</div>
 			<div class="menu">
 				<ul>
@@ -28,13 +28,13 @@
 	<div class="apresenta">
 		<div class="apresentaint">
 			<div class="apresent">
-				<img src="phpeu.png" width="500" height="400" style="margin-top: 15px; margin-left: 40px;">
+				<img src="../Imagens/phpeu.png" width="500" height="400" style="margin-top: 15px; margin-left: 40px;">
 			</div>
 			<div class="apresentext">
 				<h2>Sobre Mim</h2>
 				<p>Trabalhando e atuando diretamente na<br>
 				construção de sistemas e projetos livres<br>
-				utilizando essencialmente PHP e HTML, mas<br>
+				utilizando essencialmente PHP, SQL e HTML, mas<br>
 				conhecedor de CSS e Javascript.<br><br>Tendo feito o curso<br>PHP - Do Zero Ao Profissional<br>
 				da B7Web que é amplamente reconhecido como<br>
 				uma das maiores escolas de programadores de<br>
@@ -46,7 +46,7 @@
 	<div class="apresenta2">
 		<div class="apresentaint2">
 			<div class="apresent">
-				<img src="b7web.png" width="500" height="400" style="margin-top: 15px; margin-left: 40px;">
+				<img src="../Imagens/b7web.png" width="500" height="400" style="margin-top: 15px; margin-left: 40px;">
 			</div>
 			<div class="apresentext">
 				<h2>Aluno B7Web</h2>
@@ -58,7 +58,7 @@
 	<div class="apresenta3">
 		<div class="apresentaint3">
 			<div class="apresent">
-				<img src="projetosgit.png" width="500" height="400" style="margin-top: 15px; margin-left: 40px;">
+				<img src="../Imagens/projetosgit.png" width="500" height="400" style="margin-top: 15px; margin-left: 40px;">
 			</div>
 			<div class="apresentext">
 				<h2>Projetos e GitHub</h2>
@@ -70,7 +70,7 @@
 	<div class="apresenta4">
 		<div class="apresentaint4">
 			<div class="apresent">
-				<img src="habilidades.png" width="500" height="400" style="margin-top: 15px; margin-left: 40px;">
+				<img src="../Imagens/habilidades.png" width="500" height="400" style="margin-top: 15px; margin-left: 40px;">
 			</div>
 			<div class="apresentext">
 				<h2>Habilidades</h2>

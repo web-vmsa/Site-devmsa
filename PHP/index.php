@@ -4,14 +4,14 @@
 	<title>VMSA - Desenvolvimento Web</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="topo">
 		<div class="topoint">
 			<div class="logo">
-				<a href="index.php"><img src="novalogovmsa.png" border="0" style="margin-top: 15px; margin-left: 7px;"></a>
+				<a href="index.php"><img src="../Imagens/novalogovmsa.png" border="0" style="margin-top: 15px; margin-left: 7px;"></a>
 			</div>
 			<div class="menu">
 				<ul>
@@ -28,7 +28,7 @@
 	<div class="apresenta">
 		<div class="apresentaint">
 			<div class="apresent">
-				<img src="perfil.png" width="500" height="400" style="margin-top: 15px; margin-left: 40px;">
+				<img src="../Imagens/perfil.png" width="500" height="400" style="margin-top: 15px; margin-left: 40px;">
 			</div>
 			<div class="apresentext">
 				<h2>Victor Miguel, programador!</h2>
@@ -52,7 +52,7 @@
 					<div class="projeto">
 						<div class="titulo">Sistema de Login</div>
 						<div class="desc">Usando PHP e HTML, fiz um pequeno sistema de Login extremamente útil e simples.</div>
-						<div class="project"><img src="login.png" width="500" height="245" border="0"></div>
+						<div class="project"><img src="../Imagens/login.png" width="500" height="245" border="0"></div>
 						<div class="todos">
 							<a href="projetos.php">Ver Projetos</a>
 						</div>
@@ -63,11 +63,11 @@
 					<h2>Redes Sociais</h2>
 				</div>
 				<div class="redes">
-					<a href="https://www.facebook.com/dev.vmsa"><img src="facebook" width="40" height="40" border="0"></a>
-					<a href="https://www.instagram.com/web_vmsa/?hl=pt-br"><img src="instagram" width="40" height="40" border="0"></a>
-					<a href="https://github.com/web-vmsa"><img src="github" width="40" height="40" border="0"></a>
-					<a href=""><img src="linkedin" width="40" height="40" border="0"></a>
-					<a href=""><img src="youtube" width="40" height="40" border="0"></a>
+					<a href="https://www.facebook.com/dev.vmsa"><img src="../Imagens/facebook" width="40" height="40" border="0"></a>
+					<a href="https://www.instagram.com/web_vmsa/?hl=pt-br"><img src="../Imagens/instagram" width="40" height="40" border="0"></a>
+					<a href="https://github.com/web-vmsa"><img src="../Imagens/github" width="40" height="40" border="0"></a>
+					<a href=""><img src="../Imagens/linkedin" width="40" height="40" border="0"></a>
+					<a href=""><img src="../Imagens/youtube" width="40" height="40" border="0"></a>
 				</div>
 
 				<div class="coments">
