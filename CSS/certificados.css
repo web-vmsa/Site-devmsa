@@ -48,3 +48,58 @@ body {
 	border-top: 1px solid #4169E1;
 	border-left: 1px solid #4169E1;
 }
+
+@media screen and (min-width: 988px) and (max-width: 1024px) {
+	.topo {
+		height: 206px;
+	}
+	.topoint {
+		max-width: 988px;
+		height: 206px;
+	}
+	.logo {
+		width: 988px;
+	}
+	.logo img {
+		width: 200px;
+		height: 200px;
+		margin-left: 274px;
+	}
+	.certificado {
+		height: 450px;
+	}
+	.certificadoint {
+		max-width: 988px;
+	}
+	.certificadoint img {
+		width: 726px;
+		height: 419px;
+		margin-left: 130px;
+		margin-top: 15px;
+	}
+	.rodapeint {
+		max-width: 988px;
+	}
+}
+
+@media screen and (max-width: 986px) {
+	.topo {
+		height: 79px;
+	}
+	.topoint {
+		max-width: 768px;
+		height: 79px;
+	}
+	.logo img {
+		display: none;
+	}
+	.certificadoint {
+		max-width: 768px;
+	}
+	.certificado img {
+		width: 623px;
+	}
+	.rodapeint {
+		max-width: 768px;
+	}
+}

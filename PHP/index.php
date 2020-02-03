@@ -63,11 +63,11 @@
 					<h2>Redes Sociais</h2>
 				</div>
 				<div class="redes">
-					<a href="https://www.facebook.com/dev.vmsa"><img src="../Imagens/facebook" width="40" height="40" border="0"></a>
-					<a href="https://www.instagram.com/web_vmsa/?hl=pt-br"><img src="../Imagens/instagram" width="40" height="40" border="0"></a>
-					<a href="https://github.com/web-vmsa"><img src="../Imagens/github" width="40" height="40" border="0"></a>
-					<a href=""><img src="../Imagens/linkedin" width="40" height="40" border="0"></a>
-					<a href=""><img src="../Imagens/youtube" width="40" height="40" border="0"></a>
+					<a href="https://www.facebook.com/dev.vmsa" target="_blank"><img src="../Imagens/facebook" width="40" height="40" border="0"></a>
+					<a href="https://www.instagram.com/web_vmsa/?hl=pt-br" target="_blank"><img src="../Imagens/instagram" width="40" height="40" border="0"></a>
+					<a href="https://github.com/web-vmsa" target="_blank"><img src="../Imagens/github" width="40" height="40" border="0"></a>
+					<a href="" target="_blank"><img src="../Imagens/linkedin" width="40" height="40" border="0"></a>
+					<a href="" target="_blank"><img src="../Imagens/youtube" width="40" height="40" border="0"></a>
 				</div>
 
 				<div class="coments">

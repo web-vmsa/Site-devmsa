@@ -50,7 +50,7 @@
 			</div>
 			<div class="apresentext">
 				<h2>Aluno B7Web</h2>
-				<p>Sim, o reconhecido curso PHP - Do Zero Ao<br>Profissional da B7Web, sou aluno deles e graças<br>ao amplo conteúdo presente no curso, me sinto<br>capaz e muito confiante de ir mais além, ainda<br>não encerrei as atividades no curso, mas já tenho<br>conhecimentos suficientes para atuar na área<br>da programação de sistemas web, assim como fiz nesse<br>meu site.<br><br>Se você tem interesse em fazer parte<br>da comunidade b7web e entrar por assim dizendo<br>no mundo da programação, acesse o link do site<br>da B7Web.<br><br><a href="https://alunos.b7web.com.br/" style="color: blue; text-decoration: none;">Clique Aqui!</a></p>
+				<p>Sim, o reconhecido curso PHP - Do Zero Ao<br>Profissional da B7Web, sou aluno deles e graças<br>ao amplo conteúdo presente no curso, me sinto<br>capaz e muito confiante de ir mais além, ainda<br>não encerrei as atividades no curso, mas já tenho<br>conhecimentos suficientes para atuar na área<br>da programação de sistemas web, assim como fiz nesse<br>meu site.<br><br>Se você tem interesse em fazer parte<br>da comunidade b7web e entrar por assim dizendo<br>no mundo da programação, acesse o link do site<br>da B7Web.<br><br><a href="https://alunos.b7web.com.br/" target="_blank" style="color: blue; text-decoration: none;">Clique Aqui!</a></p>
 			</div>
 		</div>
 	</div>
@@ -62,7 +62,7 @@
 			</div>
 			<div class="apresentext">
 				<h2>Projetos e GitHub</h2>
-				<p>Atualmente trabalho livremente no mercado e<br>todos os meus projetos são de cunhos demonstrativos<br>e acadêmicos, mas estou livre para<br>trabalhar em empresas e para fazer projetos<br>livres, caso tenha interesse no meu trabalho<br>e deseja ver os meus projetos, acesses um<br>dos links abaixo.<br><br><a href="projetos.php" style="color: blue; text-decoration: none;">Projetos</a> e <a href="https://github.com/web-vmsa" style="color: blue; text-decoration: none;">GitHub</a></p>
+				<p>Atualmente trabalho livremente no mercado e<br>todos os meus projetos são de cunhos demonstrativos<br>e acadêmicos, mas estou livre para<br>trabalhar em empresas e para fazer projetos<br>livres, caso tenha interesse no meu trabalho<br>e deseja ver os meus projetos, acesses um<br>dos links abaixo.<br><br><a href="projetos.php" style="color: blue; text-decoration: none;">Projetos</a> e <a href="https://github.com/web-vmsa" target="_blank" style="color: blue; text-decoration: none;">GitHub</a></p>
 			</div>
 		</div>
 	</div>
@@ -74,7 +74,7 @@
 			</div>
 			<div class="apresentext">
 				<h2>Habilidades</h2>
-				<p>Até o momento, possuo conhecimentos avançados<br>de HTML e CSS, PHP orientado a objetos, SQL<br> e Javascript, mas sempre me encontro em processo<br>de aprendizado e quase nunca estou parado em relação<br>programação de sistemas.<br><br>Veja abaixo os meus certificados.<br><br><a href="certificados.php" style="color: blue; text-decoration: none;">Certificados</a></p>
+				<p>Até o momento, possuo conhecimentos avançados<br>de HTML e CSS, PHP orientado a objetos, SQL<br> e Javascript, mas sempre me encontro em processo<br>de aprendizado e quase nunca estou parado em relação<br>programação de sistemas.<br><br>Veja abaixo os meus certificados.<br><br><a href="certificados.php" target="_blank" style="color: blue; text-decoration: none;">Certificados</a></p>
 			</div>
 		</div>
 	</div>

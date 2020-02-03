@@ -91,7 +91,7 @@ body {
 	border-right: 1px solid #4169E1;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 988px) and (max-width: 1024px) {
 	.topoint {
 		max-width: 988px;
 	}
@@ -106,5 +106,42 @@ body {
 	}
 	.rodapeint {
 		max-width: 988px;
+	}
+}
+
+@media screen and (max-width: 986px) {
+	.topo {
+		height: 190px;
+	}
+	.topoint {
+		max-width: 768px;
+		height: 190px;
+	}
+	.logo {
+		width: 768px;
+		float: none;
+		text-align: center;
+	}
+	
+	.menu {
+		width: 773px;
+		float: none;
+	}
+	.pjectint {
+		max-width: 768px;
+		height: 588px;
+		text-align: center;
+	}
+	.pojeto {
+		width: 100%;
+		float: none;
+	}
+	.pojetotext {
+		width: 77%;
+		float: none;
+		margin-left: 109px;
+	}
+	.rodapeint {
+		max-width: 768px;
 	}
 }
