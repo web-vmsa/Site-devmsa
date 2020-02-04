@@ -74,7 +74,7 @@
 			</div>
 			<div class="apresentext">
 				<h2>Habilidades</h2>
-				<p>Até o momento, possuo conhecimentos avançados<br>de HTML e CSS, PHP orientado a objetos, SQL<br> e Javascript, mas sempre me encontro em processo<br>de aprendizado e quase nunca estou parado em relação<br>programação de sistemas.<br><br>Veja abaixo os meus certificados.<br><br><a href="certificados.php" target="_blank" style="color: blue; text-decoration: none;">Certificados</a></p>
+				<p>Até o momento, possuo conhecimentos avançados<br>de HTML e CSS, PHP orientado a objetos, SQL<br> e Javascript, mas sempre me encontro em processo<br>de aprendizado e quase nunca estou parado em relação<br>programação de sistemas.<br><br>Veja abaixo o código de validação dos certificados.<br><br><strong>PHP Orientado a Objetos:</strong> 8948612<br><strong>HTML 5 e CSS 3:</strong> 3831458<br><strong>Javascript:</strong> 2436559<br><strong>Banco de Dados MySQL:</strong> 4380771<br><br><a href="http://www.b7web.com.br/certificado/" target="_blank" style="color: blue; text-decoration: none;">Validar Certificado</a></p>
 			</div>
 		</div>
 	</div>

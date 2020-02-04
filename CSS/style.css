@@ -283,7 +283,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 986px) {
+@media screen and (min-width: 425px) and (max-width: 986px) {
 	.topo {
 		height: 190px;
 	}
@@ -390,3 +390,102 @@ body {
 	}
 }
 
+@media screen and (max-width: 420px) {
+	.topo {
+		height: 194px;
+	}
+	.topoint {
+		max-width: 325px;
+		height: 194px;
+	}
+	.menu {
+		width: 325px;
+		font-size: 11px;
+		line-height: 42px;
+	}
+	.menu li {
+		margin-left: 16px;
+	}
+	.apresenta {
+		height: 720px;
+	}
+	.apresentaint {
+		height: 720px;
+		max-width: 325px;
+	}
+	.apresent {
+		float: none;
+		width: 100%;
+		height: 197px;
+	}
+	.apresent img {
+		width: 245px;
+		height: 200px;
+		margin-left: 60px;
+	}
+	.apresentext {
+		width: 100%;
+		height: 430px;
+	}
+	.meio {
+		height: 930px;
+	}
+	.meioint {
+		max-width: 325px;
+		height: 930px;
+	}
+	.leftside {
+		width: 100%;
+		height: 390px;
+		float: none;
+		border-bottom: 1px solid #4169E1;
+	}
+	.projetos {
+		width: 325px;
+		height: 38px;
+	}
+	.projeto {
+		width: 325px;
+		border: none;
+	}
+	.project {
+		height: 210px;
+	}
+	.project img {
+		width: 200px;
+		height: 200px;
+	}
+	.rightside {
+		width: 100%;
+		height: 500px;
+		float: none;
+	}
+	.redes {
+		width: 325px;
+		border: none;
+	}
+	.coments {
+		width: 325px;
+		border: none;
+	}
+	.ulticoment {
+		width: 325px;
+	}
+	.emailcoment {
+		width: 325px;
+	}
+	.nomecoment {
+		width: 325px;
+	}
+	.avaliacoment {
+		width: 325px;
+		border-bottom: none;
+	}
+	.desccoment {
+		width: 325px;
+	}
+	.rodapeint {
+		max-width: 325px;
+		font-size: 14px;
+	}
+}
