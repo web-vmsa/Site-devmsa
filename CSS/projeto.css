@@ -128,7 +128,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 986px) {
+@media screen and (min-width: 425px) and (max-width: 986px) {
 	.topo {
 		height: 79px;
 	}
@@ -153,5 +153,39 @@ body {
 	}
 	.rodapeint {
 		max-width: 768px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.topo {
+		height: 80px;
+	}
+	.topoint {
+		max-width: 325px;
+		height: 80px;
+	}
+	.projetoint {
+		max-width: 325px;
+	}
+	.projetoint img {
+		width: 200px;
+		height: 200px;
+	}
+	.projetoint1 {
+		max-width: 325px;
+	}
+	.projetoint2 {
+		max-width: 325px;
+	}
+	.projetoint2 video {
+		width: 300px;
+		height: 200px;
+	}
+	.git {
+		max-width: 325px;
+	}
+	.rodapeint {
+		max-width: 325px;
+		font-size: 14px;
 	}
 }
