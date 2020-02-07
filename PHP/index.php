@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<script type="text/javascript" src="../Javascript/javascript.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -63,28 +64,33 @@
 					<h2>Redes Sociais</h2>
 				</div>
 				<div class="redes">
-					<a href="https://www.facebook.com/dev.vmsa" target="_blank"><img src="../Imagens/facebook" width="40" height="40" border="0"></a>
+					<a href="https://www.facebook.com/Victor-Miguel-110948370470830/?__tn__=%2Cd%2CP-R&eid=ARAERlJQbHEaXzbc6hPxf7virhJGLZFYIsBJZIf24mzf0BQZN8Asq17xH3WJW3CpgHxnoZXsAkUgJaGC" target="_blank"><img src="../Imagens/facebook" width="40" height="40" border="0"></a>
 					<a href="https://www.instagram.com/web_vmsa/?hl=pt-br" target="_blank"><img src="../Imagens/instagram" width="40" height="40" border="0"></a>
 					<a href="https://github.com/web-vmsa" target="_blank"><img src="../Imagens/github" width="40" height="40" border="0"></a>
-					<a href="" target="_blank"><img src="../Imagens/linkedin" width="40" height="40" border="0"></a>
-					<a href="" target="_blank"><img src="../Imagens/youtube" width="40" height="40" border="0"></a>
+					<a href="https://www.linkedin.com/in/victor-miguel/" target="_blank"><img src="../Imagens/linkedin" width="40" height="40" border="0"></a>
+					<a href="https://www.youtube.com/channel/UCzcXLI3benFJdNkKauHNJ4g" target="_blank"><img src="../Imagens/youtube" width="40" height="40" border="0"></a>
 				</div>
 
-				<div class="coments">
-					<div class="ulticoment">Comentário</div>
-					<div class="emailcoment">lucas@gmail.com</div>
-					<div class="nomecoment">Lucas Gabriel</div>
-					<div class="avaliacoment">Muito Bom</div>
-					<div class="desccoment"><strong>Excelente Profissional!</strong></div>
-				</div>
-
-				<div class="coments">
-					<div class="ulticoment">Comentário</div>
-					<div class="emailcoment">lucas@gmail.com</div>
-					<div class="nomecoment">Lucas Gabriel</div>
-					<div class="avaliacoment">Muito Bom</div>
-					<div class="desccoment"><strong>Excelente Profissional!</strong></div>
-				</div>
+				<?php
+				try {
+					$pdo = new PDO("mysql:dbname=devmsa;host=localhost", "root", "");
+					$sql = "SELECT * FROM comentarios ORDER BY id DESC LIMIT 2";
+					$sql = $pdo->query($sql);
+					foreach ($sql->fetchAll() as $coment):
+						?>
+							<div class="coments">
+								<div class="ulticoment">Comentário</div>
+								<div class="emailcoment"><?php echo $coment['email'] ?></div>
+								<div class="nomecoment"><?php echo $coment['nome'] ?></div>
+								<div class="avaliacoment"><?php echo $coment['avalia'] ?></div>
+								<div class="desccoment"><strong><?php echo $coment['complemento'] ?></strong></div>
+							</div>
+						<?php
+					endforeach;
+				} catch (Exception $e) {
+					echo "Falhou".$e->getMessage();
+				}
+			?>
 
 				<div class="comentar">
 					<a href="comentar.php">Comentar</a>

@@ -26,9 +26,9 @@
 				Seu E-mail:<br><br>
 				<input type="text" name="email"><br><br>
 				Seu Nome:<br><br>
-				<input type="text" name="assunto"><br><br>
+				<input type="text" name="nome"><br><br>
 				Como Você me Avalia:
-				<select>
+				<select name="options">
 					<option>Muito Ruim</option>
 					<option>Ruim</option>
 					<option>Bom</option>
@@ -49,3 +49,23 @@
 	</div>
 </body>
 </html>
+
+<?php
+	try {
+		$pdo = new PDO("mysql:dbname=devmsa;host=localhost", "root", "");
+
+		if (isset($_POST['email']) && empty($_POST['email']) == false) {
+			$email = addslashes($_POST['email']);
+			$nome = addslashes($_POST['nome']);
+			$avaliacao = addslashes($_POST['options']);
+			$complemento = addslashes($_POST['complemento']);
+
+			$sql = "INSERT INTO comentarios SET email = '$email', nome = '$nome', avalia = '$avaliacao', complemento = '$complemento'";
+			$sql = $pdo->query($sql);
+
+			header("Location: index.php");
+		}
+	} catch (Exception $e) {
+			echo "Falha: ".$e->getMessage();
+	}
+?>
