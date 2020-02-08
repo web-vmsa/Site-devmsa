@@ -37,10 +37,10 @@
 				E-mail:<br><br>
 				<input type="email" name="email"><br><br>
 				Você é: 
-				<select>
+				<select name="options">
 					<option>Empresa</option>
 					<option>Recrutador</option>
-					<option>Pessoa Livre</option>
+					<option>Usuário</option>
 				</select><br><br>
 				<input type="submit" value="Enviar">
 			</form>
@@ -63,3 +63,23 @@
 	</div>
 </body>
 </html>
+
+<?php 
+	try {
+		$pdo = new PDO("mysql:dbname=devmsa;host=localhost", "root", "");
+		if (isset($_POST['nome']) && empty($_POST['nome']) == false) {
+			$nome = addslashes($_POST['nome']);
+			$email = addslashes($_POST['email']);
+			$opcao = addslashes($_POST['options']);
+
+			$sql = "INSERT INTO curriculo SET nome = '$nome', email = '$email', quem_e = '$opcao'";
+			$sql = $pdo->query($sql);
+
+			echo "<script type='text/javascript'>
+					alert('Solicitação Enviada com sucesso!');
+					</script>";
+		}
+	} catch (Exception $e) {
+		echo "Falhou: ".$e->getMessage();
+	}
+?>
