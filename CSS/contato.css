@@ -86,6 +86,7 @@ form input {
 }
 form textarea {
 	outline: none;
+	overflow: scroll;
 	border-radius: 10px;
 	border: 1px solid #4169E1;
 	text-align: center;

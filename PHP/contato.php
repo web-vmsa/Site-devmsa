@@ -37,7 +37,7 @@
 				<input type="text" name="assunto"><br><br>
 				Mensagem:<br><br>
 				<textarea></textarea><br><br>
-				<input type="submit" value="Enviar">
+				<input type="submit" value="Enviar" style="cursor: pointer;">
 			</form>
 		</div>
 	</div>

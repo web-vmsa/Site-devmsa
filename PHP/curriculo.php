@@ -42,7 +42,7 @@
 					<option>Recrutador</option>
 					<option>Usuário</option>
 				</select><br><br>
-				<input type="submit" value="Enviar">
+				<input type="submit" value="Enviar" style="cursor: pointer;">
 			</form>
 		</div>
 	</div>
