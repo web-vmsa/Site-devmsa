@@ -116,6 +116,9 @@ form input {
 	.topo {
 		height: 80px;
 	}
+	.logo img {
+		display: none;
+	}
 	.topoint {
 		max-width: 325px;
 		height: 80px;
